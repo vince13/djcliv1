@@ -1,0 +1,11 @@
+{
+  "makemigrations": "python manage.py makemigrations",
+  "migrate": "python manage.py migrate",
+  "runserver": "python manage.py runserver",
+  "createsuperuser": "python manage.py createsuperuser",
+  "collectstatic": "python manage.py collectstatic",
+  "test": "python manage.py test",
+  "showmigrations": "python manage.py showmigrations",
+  "startapp": "python manage.py startapp",
+  "startproject": "python manage.py startproject"
+}
