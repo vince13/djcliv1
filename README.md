@@ -38,7 +38,7 @@ sudo cp djcli.py /usr/local/bin/djcliv1
 
 Verify it works:
 ```bash
-djcli_github --help
+djcli --help
 ```
 
 ---
