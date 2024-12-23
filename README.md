@@ -15,8 +15,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/djcli.git
-cd djcli_github
+git clone https://github.com/vince13/djcliv1.git
+cd djcliv1
 ```
 
 ### 2. Make the Script Executable
@@ -27,13 +27,13 @@ Add a shebang to the script if not already included:
 
 Change file permissions to make it executable:
 ```bash
-chmod +x djcli_github.py
+chmod +x djcli.py
 ```
 
 ### 3. Add to Your PATH (Optional for Global Use)
 To use `djcli` as a global command, copy it to a directory in your `PATH`:
 ```bash
-sudo cp djcli_github.py /usr/local/bin/djcli_github
+sudo cp djcli.py /usr/local/bin/djcliv1
 ```
 
 Verify it works:
@@ -58,22 +58,22 @@ Navigate to a Django project directory (where `manage.py` is located) and use th
 ### Examples
 1. Start the development server:
    ```bash
-   djcli_github runserver
+   djcli runserver
    ```
 
 2. Apply migrations:
    ```bash
-   djcli_github migrate
+   djcli migrate
    ```
 
 3. Create a superuser:
    ```bash
-   djcli_github createsuperuser
+   djcli createsuperuser
    ```
 
 4. Enter the Django shell:
    ```bash
-   djcli_github shell
+   djcli shell
    ```
 
 ---
